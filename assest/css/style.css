@@ -378,3 +378,44 @@ a {
     color: #2e80ce;
     font-weight: 400;
 }
+
+/* Feature */
+.feature {
+    margin-top: 135px;
+    padding: 35px 0;
+}
+
+.feature__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature__left {
+    padding-bottom: 121px;
+    position: relative;
+    width: 49%;
+}
+
+.feature__thumb {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__image .feature__thumb:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 332px;
+    height: 370px;
+}
+
+.feature__right {
+    width: 470px;
+}
+
+.feature__btn {
+    margin-top: 38px;
+}
